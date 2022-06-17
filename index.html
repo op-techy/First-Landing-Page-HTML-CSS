@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./images/nt-dribbble1_4x.jpg" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Site</title>
+    <link rel="stylesheet" href="./travelstylesheet.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <h1 class="logo">Hathaway Travels</h1>
+        <ul class="nav-link">
+            <li><a href="#" target="_blank">Home</a></li>
+            <li><a href="#" target="_blank">Tours</a></li>
+            <li><a href="#" target="_blank">Explore</a></li>
+            <li><a href="#" target="_blank">About</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <img src="./images/hamburgericon.png" alt="" class="menubtn">
+    </nav>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h2>Explore the colorful world</h2>
+            <!-- <div class="line"></div> -->
+            <hr></hr>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+    <!-- Section -->
+
+    <!-- Footer -->
+
+    <!-- Javasript -->
+    <script>
+        const menubtn = document.querySelector('.menubtn')
+        const navlinks = document.querySelector('.nav-link')
+
+        menubtn, addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
